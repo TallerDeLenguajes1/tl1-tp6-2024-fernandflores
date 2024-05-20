@@ -43,7 +43,7 @@ do{
         Console.WriteLine("ingrese numero 1 y numero 2");
         string buff1= Console.ReadLine();
         string buff2= Console.ReadLine();
-        if (int.TryParse(buff1, out num1) && int.TryParse(buff2, out num2)){
+        if (int.TryParse(buff1, out num1) && int.TryParse(buff2, out num2)){ //si ingresa numero entero hace la operacion
             switch(opc)
             {
                 case 1: 
